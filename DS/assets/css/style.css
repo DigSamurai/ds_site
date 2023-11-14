@@ -2,7 +2,7 @@
 
 
 body {
-	font: 300 15px/1.8 Montserrat, sans-serif;
+	font: 400 14px/1.8 Montserrat, sans-serif;
 	color: #000;
 	overflow-x: hidden;
 }
@@ -12,8 +12,9 @@ img {
 	height: auto;
 }
 
+
 a {
-	color: #E7746F;
+	color: #0048F4;
 }
 
 a:hover {
@@ -62,11 +63,11 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 36px/1.2 'Montserrat', sans-serif;
+	font: 700 36px/1.2 Montserrat, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin: 5px 0 5px;
-	color: #222;
+	color: #000;
 }
 
 h2 {
@@ -96,6 +97,7 @@ h6 {
 	letter-spacing: 1px;
 	font-weight: 400;
 }
+
 
 p6 {
 	font-size: 20px;
@@ -229,7 +231,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .pfblock {
-	padding: 120px 0 100px;
+	padding: 70px 0 30px;
 }
 
 .pfblock-gray {
@@ -368,8 +370,8 @@ textarea.form-control {
 }
 
 .calltoaction-btn > .btn {
-    background: #8AC7FF;
-    color: #111;
+    background: #0048F4;
+    color: #fff;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
@@ -400,7 +402,7 @@ textarea.form-control {
 }
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.3);
+    background-color: rgba(0, 72, 244, 0.65);
     background-image: url("../images/pattern.png");
     background-repeat: repeat;
     height: 100%;
@@ -439,16 +441,20 @@ textarea.form-control {
 }
 
 .start1 {
-	margin: 70px 0;
+	margin: 100px 0;
 }
 
+
+.start2 {
+	margin: 100px 0;
+}
 
 /* ---------------------------------------------- /*
  * Servise
 /* ---------------------------------------------- */
 
 .iconbox {
-	background: #fff;
+	background: #0048F4;
 	border-bottom: 1px solid #d4d4d4;
 	text-align: center;
 	padding: 40px 20px;
@@ -465,6 +471,46 @@ textarea.form-control {
 	margin: 0 0 15px;
 	padding: 0;
 }
+
+
+
+.iconbox2 {
+	background: #D2233C;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+	padding: 40px 20px;
+	margin: 0 0 20px;
+}
+
+.iconbox2-icon {
+	margin: 0 0 15px;
+	font-size: 12px;
+	color: #222;
+}
+
+.iconbox2-title {
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+
+.iconbox3 {
+	background: #004064;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+	padding: 40px 20px;
+	margin: 0 0 20px;
+}
+
+
+.iconbox4 {
+	background: #0070BA;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+	padding: 40px 20px;
+	margin: 0 0 20px;
+}
+
 
 /* ---------------------------------------------- /*
  * Skills
@@ -587,9 +633,10 @@ textarea.form-control {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 16px;
-	letter-spacing: 3px;
+	font-size: 13px;
+	letter-spacing: 1px;
 	color: #222;
+	font-weight: 500;
 }
 
 .navbar-custom .nav li.active,
@@ -598,7 +645,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	color: #0048F4;
 }
 
 .navbar-custom .navbar-brand {
@@ -609,7 +656,7 @@ textarea.form-control {
 
 .navbar-custom .dropdown-menu {
 	border: 0;
-	border-top: 2px solid #E7746F;
+	border-top: 2px solid #0048F4;
 	border-radius: 0;
 }
 
@@ -653,7 +700,7 @@ textarea.form-control {
 .scroll-up a:hover,
 .scroll-up a:active {
 	background-color: rgba(235, 235, 235, .8);
-	color: #e7746f;
+	color: #0048F4;
 }
 
 /* ---------------------------------------------- /*
@@ -664,11 +711,11 @@ textarea.form-control {
 	position: absolute;
 	left: 50%;
 	bottom: 40px;
-	border: 2px solid #fff;
+	border: 0px solid #fff;
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
-	margin-left: -15px;
+	margin-left: -10px;
 	display: block;
 	z-index: 10;
     text-align: center;
@@ -852,20 +899,109 @@ textarea.form-control {
 
 .parent {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+
+}
+
+.parent_ba {
+  display: flex;
+  justify-content: left;
 
 }
 
 .child {
-padding: 35px 5px;
-width: 33%
+padding: 10px 5px 30px 5px;
+width: 50%
 }
 
-.child_b {
-padding: 35px 5px;
-width: 66%
+.child_pict {
+padding: 10px 5px 30px 5px;
+width: 40%
 
 }
+
+.child_2 {
+padding: 10px 5px 30px 5px;
+width: 10%
+}
+
+
+.child_sa1 {
+padding: 10px 5px 5px 5px;
+width: 100%
+justify-content: left;
+}
+
+.child_sa2 {
+padding: 10px 5px 20px 5px;
+width: 100%
+justify-content: left;
+}
+
+.child_sa3 {
+padding: 10px 5px 30px 5px;
+width: 45%
+}
+
+.child_sa4 {
+padding: 10px 5px 30px 5px;
+width: 50%
+}
+
+
+.child_ba1 {
+padding: 10px 5px 5px 5px;
+width: 100%
+justify-content: left;
+}
+
+.child_ba2 {
+padding: 10px 5px 20px 5px;
+width: 100%
+justify-content: left;
+}
+
+.child_ba3 {
+padding: 10px 5px 30px 5px;
+width: 30%
+justify-content: left;
+}
+
+.child_ba4 {
+padding: 10px 5px 30px 5px;
+width: 70%
+justify-content: left;
+}
+
+.child_ba5 {
+padding: 10px 5px 30px 5px;
+width: 0%
+justify-content: left;
+}
+
+.child_photo {
+padding: 10px 5px 20px 120px;
+width: 100%
+justify-content: center;
+}
+
+.child_vac1 {
+padding: 10px 5px 30px 5px;
+width: 50%
+justify-content: left;
+}
+
+.child_vac {
+padding: 10px 5px 30px 5px;
+width: 10%
+}
+
+.child_vac2 {
+padding: 10px 5px 30px 5px;
+width: 70%
+justify-content: left;
+}
+
 
 /*---------------*/
 /***** Bubba *****/
@@ -1038,3 +1174,42 @@ figure.effect-bubba:hover p {
 
 }
 
+
+
+
+
+.overlay {
+  position: fixed;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: none;
+}
+.overlay.active {
+  display: block;
+}
+.overlay .flex-popap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay .flex-popap .popap {
+  position: relative;
+  background-color: #fff;
+  padding: 35px 25px;
+  margin: 0 10px;
+  max-width: 800px;
+  overflow: auto;
+}
+.popap span {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
